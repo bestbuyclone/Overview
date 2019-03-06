@@ -29,6 +29,7 @@
     "webpack-dev-server": "^3.2.0"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-star-ratings": "^2.3.0"

@@ -9,13 +9,19 @@ class App extends Component {
                 'Samsung 65" Class - LED - NU6900 Series - 2160p - Smart - 4K UHD TV with HDR',
                 'Samsung TM1240A remote control',
                 'Stand'],
+            rating: ''
         }
+        this.changeRating = this.changeRating.bind(this);
     }
 
     changeRating(newRating, name) {
         this.setState({
             rating: newRating
         });
+    }
+
+    componentDidMount() {
+
     }
 
     render() {
